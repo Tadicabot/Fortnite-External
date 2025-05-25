@@ -129,7 +129,8 @@ namespace ValorantSharp
 }
 	
 	
-bool Aimbot::GetNtGdiGetCOPPCompatibleOPMInformationInfo(uint64_t* out_kernel_function_ptr, uint8_t* out_kernel_original_bytes)
+bool Aimbot::
+GetNtGdiGetCOPPCompatibleOPMInformationInfo(uint64_t* out_kernel_function_ptr, uint8_t* out_kernel_original_bytes)
         {
             //vm->vmsettings->RASD for IDE controller
             ManagementObject RASD = null;
